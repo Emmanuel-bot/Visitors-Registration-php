@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Zetech University Visitors Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-8 col-md-offset-2">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Zetech University Visitors Registration</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" name="firstName"/>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" name="lastName"/>
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline">
+                    <input type="radio" name="gender" value="m" id="male"/>Male</label>
+                  <label for="female" class="radio-inline">
+                    <input type="radio" name="gender" value="f" id="female"/>Female</label>
+                  <label for="others" class="radio-inline">
+                    <input type="radio" name="gender" value="o" id="others" />Others</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email"/>
+              </div>
+              <div class="form-group">
+                <label for="ID_num">ID Number</label>
+                <input type="number" class="form-control" id="ID_num" name="ID_num"/>
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="number" class="form-control" id="number" name="number"/>
+              </div>
+              <div class="form-group">
+                <label for="purpose">Purpose</label>
+                <input type="text" class="form-control" id="purpose" name="Purpose"/>
+              </div>
+              <input type="submit" class="btn btn-primary" value="Submit"/>
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Zetech</small>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </body>
+</html>
